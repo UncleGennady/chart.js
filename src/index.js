@@ -9,7 +9,7 @@ const myChart = new Chart(ctx, {
                             return acc;
                             },[] ),
         datasets: [{
-            label: '# of Votes',
+            label: 'rating group',
             data: users.reduce((acc,item) =>{acc.push(item.rating);
                 return acc;
             },[] ),
